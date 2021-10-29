@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>keycode</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <style>
+      #wrapper {
+        width:300px;
+        margin:0 auto;
+        text-align: center;
+      }
+      input {
+        width:100px;
+        margin:10px 20px;
+      }
+      p#keyCodeValue {
+        font-size:26px;
+        color:blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">    
+      <p>텍스트 필드에 키 입력</p>
+      <form>
+        <input onkeydown="keyHandler(event);event.preventDefault()">      
+      </form>    
+      <p>눌린 키 : <span id="codeValue"></p>
+      <p> keycode : <span id="keyCodeValue"></p>
+    </div>
+
+     <script>
+       function keyHandler(evt) {
+        var code = evt.code; 
+        var keyCode = (evt.keycode) ? evt.keycode : evt.which;
+        document.getElementById("codeValue").innerText = code;         
+         document.getElementById("keyCodeValue").innerText = keyCode;         
+      }
+
+     </script>
+  </body>
+</html>

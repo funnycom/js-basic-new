@@ -1,0 +1,53 @@
+			body{
+				box-sizing: border-box;
+			}
+			.container {
+				width:350px;			
+				margin:30px auto;
+			}
+			.container > h2 {
+				text-align:center;
+			}
+			.change {
+				box-sizing: border-box;
+				width:100%;
+        padding:15px 20px;
+				background:#fbfbfb;
+				border:1px solid #eee;	
+      }
+      .box {
+        display:inline-block;
+        height:28px;
+        border:1px solid #ddd;
+        background-color:#fff;
+      }      
+      #exchange {
+        display:inline-block;
+        width:20px;
+        height:25px;
+        margin:0 10px;
+				line-height:25px;							
+			}
+			#exchange:hover {
+				cursor: pointer;
+			}
+      .box input[type="text"] {
+        display:inline-block;
+        width:80px;
+        height:25px;
+        padding-right:3px;
+        border:0;
+        line-height:25px;
+        font-size:12px;
+        font-weight:bold;
+        text-align:right;
+      }      
+      .unit {
+        width:40px;
+        height:25px;
+        padding-right:10px; 
+        line-height: 25px;
+        font-family:"돋움";
+				font-size:12px;
+				text-align:right;
+      }

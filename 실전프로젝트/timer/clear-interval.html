@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko">    
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>setInterval and clearInterval</title>
+  </head>
+  <body>
+		<script>			
+			var num = 0;	
+			var counter = setInterval(rpt, 500);
+
+			function rpt() {				
+				document.write(num + " ");
+				num++;
+				if (num > 10) clearInterval(counter);
+			}	
+		</script>
+  </body>
+</html>

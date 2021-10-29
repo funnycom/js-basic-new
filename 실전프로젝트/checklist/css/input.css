@@ -1,0 +1,40 @@
+* {
+  box-sizing:border-box;
+}
+#wrapper {
+  width:600px;
+  margin:0 auto;
+}
+h2 {
+  text-align:center;
+}
+form {
+  background-color:#007acc;
+  padding:30px 40px;
+  color:white;
+  text-align:center;
+}
+input {
+  border:none; 
+  width:440px;
+  padding:10px;
+  float:left;
+  font-size:16px;
+}
+.addBtn {
+  padding:10px;
+  width:50px;
+  border:none;
+  background-color:#fff;
+  box-shadow:1px 2px 4px #167dae;
+  color:#555; 
+  text-align:center;
+  font-size:14px;
+  cursor:pointer;
+  transition:0.3;
+}
+form::after {
+  content:"";
+  display:table;
+  clear:both;
+}

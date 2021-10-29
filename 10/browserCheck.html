@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>브라우저 체크</title>
+</head>
+<body>
+  <h1>브라우저 체크</h1>
+  <script>
+    var agent = navigator.userAgent.toLowerCase();  // userAgent 문자열을 소문자로 변환
+    var name = navigator.appName;
+
+    if(name == "Internet Explorer" || agent.indexOf("triden") > -1 || agent.indexOf("edge/") > -1) {  // ie 이거나 엣지
+      if(name == "Internet Explorer") document.write("IE 10 이하 버전입니다.");
+      else {
+        if (agent.indexOf("trident") > -1) document.write("IE 11 브라우저입니다.");
+        else if (agent.indexOf("edge/") > -1) document.write("MS Edge 브라우저입니다.");
+      }
+    }
+    else if (agent.indexOf("safari") > -1) {  // 크롬이거나 사파리
+      if(agent.indexOf("chrome") > -1) document.write("Chrome 브라우저입니다.");
+      else if(agent.indexOf("safari") > -1) document.write("Safari 브라우저입니다.");
+    }
+    else if (angent.indexOf("firefox") > -1) document.write("Firefox 브라우저입니다.");
+    else if (agent.indexOf("opera") > -1) document.write("Opera  브라우저입니다.");
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>숫자 맞히기</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">    
+	<link rel="stylesheet" href="css/finding.css">
+</head>
+<body>
+	<div id="wrapper">
+		<h1>숫자 맞히기 게임</h1>
+		<p>1에서 100 사이의 수를 입력하세요.</p>
+		<form action="">
+			<label><input type="text" id="try" autocomplete="off" autofocus></label>
+			<input type="button" value="확인" id="check" class="btn btn-1" onclick="finding()">
+			<input type="button" value="다시" id="reset" class="btn btn-2" onclick="window.location.reload()">
+		</form>
+		<div id="display" class="output"></div>
+		<div id="counter" class="footer"></div>
+	</div>
+	
+	<script src="js/finding-result.js"></script>
+</body>
+</html>

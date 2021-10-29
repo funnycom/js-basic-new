@@ -1,0 +1,12 @@
+		table, tr {
+			border:1px solid #222;
+			border-collapse: collapse;
+		}
+		td {
+			padding:10px 15px;
+			border:1px solid #222;
+		}
+		td.title {
+			width:150px;
+			font-weight:bold;
+		}

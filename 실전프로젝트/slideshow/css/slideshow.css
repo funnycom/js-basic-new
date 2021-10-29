@@ -1,0 +1,41 @@
+.wrapper {    /* 슬라이드 쇼 영역 스타일 */
+	width:600px;   /* 너비 */
+	margin:0 auto;  /* 화면 중앙에 배치 */
+	position:relative;  /* 슬라이드 위치를 잡기 위해 */
+	background-color:#ccc;
+	text-align:center;  /* 슬라이드를 화면 중앙에 배치 */
+}
+#container {   
+	position:absolute;
+}
+#container > img {  /* 각 이미지의 스타일 */
+	width:100%;  /* 슬라이드 영역에 꽉 차게 */
+	float:left;  /* 왼쪽부터 배치 */
+}
+button {
+	position:absolute;   /* 배치 방법 : absolute */
+	height:100%;  /* 버튼 높이를 슬라이드 영역에 꽉 채움 */
+	top:0;  /* 위로 바짝 붙여서 배치 */
+	border:none;  /* 테두리 없음 */
+	padding:20px; /* 패딩 20px */
+	background-color:transparent;  /* 투명 배경 */
+	color:#000;  /* 화살표 색 */
+	font-weight:800;  /* 진하기 */
+	font-size:24px;  /* 화살표 크기 */
+	opacity:0.5;  /* 불투명도 */      
+}
+#prev {
+	left:0;  /* 왼쪽으로 바짝 붙여서 배치 */
+}
+#next {
+	right:0;  /* 오른쪽 바짝 붙여서 배치 */
+}
+button:hover {   /* 버튼 위로 마우스 오버 했을 때의 스타일 */
+	background-color:#222;   /* 배경색 */
+	color:#fff;  /* 화살표 색 */
+	opacity:0.6;  /* 불투명도 */
+	cursor:pointer;  /* 마우스 커서 모양 */
+}
+button:focus {  /* 버튼에 포커싱했을 때 스타일 */
+	outline:0;  /* 주변 테두리 없애기 */
+}

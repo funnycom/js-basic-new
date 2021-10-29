@@ -1,0 +1,11 @@
+    #container{
+      width:500px;
+      margin:20px auto;
+      padding:10px;
+    }
+    button {
+      margin-top:20px;
+      padding:10px 40px;
+      border:1px solid #ccc;
+      background:rgba(253, 234, 234, 0.6);
+    }

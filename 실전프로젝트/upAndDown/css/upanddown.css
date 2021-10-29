@@ -1,0 +1,69 @@
+      #wrapper {
+        position:relative;
+        width:300px;
+        height:400px;
+        margin:0 auto;
+        text-align:center;
+        border:10px solid #777;
+        border-radius:5px;
+        outline:2px dotted #fff;
+        outline-offset:-6px;        
+      }
+      h1 {
+        margin-top:0;
+        padding:10px;
+        background-color:#222;
+        color:white;
+      }
+      form {
+        margin-top:40px;
+      }
+      input[type="text"] {
+        width:120px;
+        height:40px;
+        padding:0;
+        border:#ccc 1px solid;
+      }
+      .btn {
+        width:50px;
+        height:40px;        
+        /* border-radius:50%; */
+        padding:10px 3px;
+        border:#ccc 1px solid;        
+              
+      }      
+      .btn-1 {
+        background-color:azure;  
+      }
+      .btn-2 {
+        background-color: #eee;
+      }
+      #display {
+        font-size:30px;
+        margin-top:70px;
+      }
+      .output {
+        font-size:20px;
+        font-weight:bold;
+      }
+      #counter {
+        position:absolute;
+        left:0;     
+        bottom:0;
+        width:100%;
+        height:30px;
+
+      }
+      .footer {
+        background-color:#222;
+				color:white;
+				line-height:30px;
+      }
+
+      .quest {        
+        font-family:arial;
+        font-size:30px;
+        color:darkorange;
+        text-shadow:1px 1px 3px #222;
+        padding:2px 1px;
+      }
