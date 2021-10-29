@@ -1,0 +1,38 @@
+		#contents {
+			width: 450px;
+			margin:0 auto;
+		}
+		#contents > img {
+			float:left;
+			margin-right:25px;
+		}
+		ul {			
+			list-style: none;
+			padding-top:40px;
+		}
+		li {
+			margin-bottom:10px;
+		}
+		li > label {
+			width:80px;
+			float:left;
+			text-align:right;
+		}
+		input[type="text"] {
+			width:110px;
+			padding:5px 10px;			
+			margin:0 5px 0 10px;
+		}
+		li:nth-child(3) {
+			margin-top:20px;
+			text-align: center;
+		}
+		button {
+			padding:5px 10px;
+			border:1px solid #ccc;			
+			font-size:1em;
+		}
+		#showResult {
+			margin-top:20px;
+			font-size:1.5em;			
+		}

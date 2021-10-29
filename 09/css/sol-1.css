@@ -1,0 +1,13 @@
+#container {
+  width:400px;
+  margin:0 auto;
+}
+fieldset {
+  margin-bottom:20px;
+  border:1px solid #eee;
+}
+#total {
+  border:none;
+  font-size:16px;
+  font-weight:bold;
+}

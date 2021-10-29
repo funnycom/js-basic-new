@@ -1,0 +1,14 @@
+body {
+	padding-top:50px;
+	text-align:center;
+}
+
+button {
+	font-size:1.3em;	
+}
+
+#result {
+	margin-top:20px;
+	font-size:1.8em;
+	color:blue;
+}

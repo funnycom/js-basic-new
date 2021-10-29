@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>짝수일까, 홀수일까</title>
+	<style>
+		body {
+			font-size:1.2em;
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+	<h2>짝수일까, 홀수일까</h2>
+
+	<script>
+		var userNumber = prompt("숫자를 입력하시오.");
+
+		if(userNumber != null) {
+			if(userNumber % 2 ==0)
+				document.write(userNumber +"는 짝수입니다.");
+			else
+				document.write(userNumber +"는 홀수입니다.");
+		}
+	</script>
+</body>
+</html>

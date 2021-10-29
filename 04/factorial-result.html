@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>팩토리얼 계산하기</title>
+	<link rel="stylesheet" href="css/factorial.css">
+</head>
+<body>
+	<script>
+		var n = prompt("숫자를 입력하세요.");
+		var nFact = 1;
+		var i = 2;
+
+		while(i <= n) {
+			nFact *= i;			
+			i++;
+		}
+
+		document.write(n + "!= " + nFact);
+	</script>
+</body>
+</html>

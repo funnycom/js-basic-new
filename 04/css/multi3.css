@@ -1,0 +1,13 @@
+
+#result {
+	width:500px;
+	height:100px;
+	margin: 50px auto;
+	padding:10px;
+	border:1px solid #ccc;
+	box-shadow:1px 2px 1px #666;
+	font-size:1.4em;
+	line-height:100px;
+	font-weight:bold;
+	text-align:center;
+}

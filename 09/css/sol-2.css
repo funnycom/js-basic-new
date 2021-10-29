@@ -1,0 +1,35 @@
+		h1 {
+			text-align: center;
+		}
+		#calc {
+			width:300px;
+			margin:50px auto;
+		}
+		#start {
+			border:1px solid #222;
+			background-color:#eee;
+			border-radius:5px;
+			margin-left:10px;
+			padding:15px 30px;
+		}
+		hr {
+			width:300px;
+			margin-left:0;
+			margin-top:30px;
+			margin-bottom:40px;
+		}
+		input[type="text"] {
+			height:50px;
+			border:2px solid #222;
+      border-radius:10px;
+      padding-left:20px;
+		}
+		#radius{			
+			width:150px;
+		}
+		#round, #area {
+			width:300px;
+		}
+		#calc > p {
+			line-height:40px;
+		}

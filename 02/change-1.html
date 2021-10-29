@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>글자색 바꾸기</title>
+	<link rel="stylesheet" href="css/change-color.css">	
+</head>
+<body>
+	<h1 id="heading">자바스크립트</h1>
+	<p id="text">위 텍스트를 클릭해 보세요</p>
+
+	<script>
+		var heading = document.querySelector('#heading');
+		heading.onclick = function() {
+			heading.style.color = "red";
+		}
+	</script>
+</body>
+</html>

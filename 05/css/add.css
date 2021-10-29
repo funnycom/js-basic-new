@@ -1,0 +1,10 @@
+button {
+	border:1px solid #ccc;
+	padding:10px 15px;
+	margin:20px auto;
+	font-size:16px;
+}
+
+body {
+	text-align: center;
+}

@@ -1,0 +1,54 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+ul {
+	list-style: none;
+}
+legend {
+	font-size:1.2em;
+	font-weight:bold;
+	margin-left:20px;
+}
+
+form {
+	width:520px;
+	height:auto;
+	padding-left:10px;
+	margin:50px auto;
+}
+fieldset {
+	border:1px solid #c0c0c0;
+	padding:30px 20px 30px 30px;
+	margin-bottom:35px;
+}
+
+.field {
+	float:left;
+	width:60px;
+	font-weight:bold;
+	font-size:0.9em;
+	line-height: 55px;
+	text-align:right;
+	margin-right:15px;
+}
+
+.input-box {
+	width:350px;
+	height:35px;
+	border:1px solid #aaa;
+	border-radius:5px;
+	padding:5px;
+	margin:10px 0;
+	float:left;	
+}
+
+.order {
+	width:100%;
+	padding:20px;
+	border:1px solid #aaa;
+	background:#e9e9e9;
+	font-size:1em;
+	font-weight:bold;
+}
