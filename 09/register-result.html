@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/register.css">
+	<title>회원 가입</title>
+</head>
+<body>
+	<div id="container">
+		<h1>회원 가입</h1>
+		<form action="#" id="register">
+			<ul id="user-info">
+				<li>
+					<label for="user-id" class="field">아이디</label>
+					<input type="text" id="user-id" placeholder="4~15자리의 영문과 숫자로 입력" required>
+				</li>
+				<li>
+					<label for="email" class="field">이메일</label>
+					<input type="email" id="email" required>
+				</li>
+				<li>
+					<label for="user-pw1" class="field">비밀번호</label>
+					<input type="password" id="user-pw1" placeholder="8자리 이상" required>
+				</li>
+				<li>
+					<label for="user-pw2" class="field">비밀번호 확인</label>
+					<input type="password" id="user-pw2" required>
+				</li>
+				<li>
+					<label class="field">메일링 수신</label>
+					<label class="r"><input type="radio" value="yes" name="mailing">예</label>
+					<label class="r"><input type="radio" value="no" name="mailing">아니오</label>
+				</li>
+			</ul>
+			<ul id="buttons">
+				<li>
+					<button type="submit" class="btn btnBlack">가입하기</button>					
+				</li>
+				<li>
+					<button type="reseet" class="btn btnGray">취소</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+	
+	<script src="js/register-result.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+		#container {
+			width:500px;
+			margin:20px auto;
+		}
+		h1 {
+			font-size:2.5em;
+			text-align: center
+		}
+		form {
+			margin-top:50px;			
+		}
+		input[type="text"] {
+			float:left;
+			width:300px;
+			padding:12px;
+			border:none;
+			border-bottom:1px solid #ccc;
+			font-size:20px;
+		}
+		input:focus {
+			outline: none;
+		}
+		button {
+			width:100px;
+			border:1px solid #ccc;
+			border-radius:7px;
+			padding:12px;	
+			margin-left:30px;
+			font-size:20px;
+		}
+		button:hover {
+			background-color:#ccc;
+		}
+		hr {
+			clear:both;
+			visibility: hidden;
+		}
+		#nameList > p {
+			font-size:20px;
+			text-indent:50px;
+			line-height: 1.5;
+		}
+		.del {
+			font-size:20px;
+			text-align: center;
+			color:#ccc;
+			background:transparent;
+			float:right;
+			margin-right:10px;
+		}
+		.del:hover {
+			color:#222;
+			cursor: pointer;
+		}
+		.del:active {
+			outline:0;
+		}
